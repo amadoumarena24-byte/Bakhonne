@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galerie | Bakhonne</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <div class="logo">
+            <span>BAKHONNE</span>
+        </div>
+
+        <nav class="navigation">
+            <a href="index.html">Accueil</a>
+            <a href="apropos.html">À propos</a>
+            <a href="culture.html">Culture</a>
+            <a href="galerie.html" class="active">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= GALERIE ================= -->
+
+    <main>
+
+        <section class="galerie-section">
+
+            <div class="galerie-intro">
+                <p class="petit-titre">NOTRE PATRIMOINE</p>
+
+                <h1>Galerie <span>Bakhonne</span></h1>
+
+                <p>
+                    Découvrez à travers ces images la richesse de la culture,
+                    des traditions et du patrimoine Manjak.
+                </p>
+            </div>
+
+
+            <!-- GRILLE DES IMAGES -->
+
+            <div class="galerie">
+
+                <div class="photo">
+                    <img src="images/vetement.jpg"
+                         alt="Culture Manjak"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/misse.jpg"
+                         alt="Tradition Manjak"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/img_lights.jpg"
+                         alt="Village Manjak"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/maison.jpg"
+                         alt="Tradition culturelle"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/img_mountains.jpg"
+                         alt="Patrimoine Manjak"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/village.jpg"
+                         alt="Culture et patrimoine"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/img_5terre.jpg"
+                         alt="Vie traditionnelle"
+                         loading="lazy">
+                </div>
+
+                <div class="photo">
+                    <img src="images/img_forest.jpg"
+                         alt="Peuple Manjak"
+                         loading="lazy">
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div id="lightbox" class="lightbox">
+
+        <!-- Bouton fermer -->
+        <button id="fermer" class="fermer" aria-label="Fermer">
+            &times;
+        </button>
+
+        <!-- Image principale -->
+        <img id="imageLightbox"
+             src=""
+             alt="Image agrandie">
+
+        <!-- Bouton précédent -->
+        <button id="precedent"
+                class="fleche gauche"
+                aria-label="Image précédente">
+            &#10094;
+        </button>
+
+        <!-- Bouton suivant -->
+        <button id="suivant"
+                class="fleche droite"
+                aria-label="Image suivante">
+            &#10095;
+        </button>
+
+        <!-- Compteur -->
+        <div id="compteur" class="compteur">
+            1 / 8
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Bakhonne — Valorisation de la culture Manjak
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
